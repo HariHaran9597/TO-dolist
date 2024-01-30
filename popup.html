@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="popup.js" defer></script>
+</head>
+<body>
+  <div class="task-manager">
+    <h1>To-Do List</h1>
+    <input type="text" id="taskInput" placeholder="Add a new task...">
+    <button id="addTask">Add Task</button>
+    <button id="clearCompleted">Clear Completed</button>
+    <input type="text" id="searchTask" placeholder="Search tasks...">
+    <select id="filterPriority">
+      <option value="">Filter by Priority</option>
+      <option value="low">Low</option>
+      <option value="medium">Medium</option>
+      <option value="high">High</option>
+    </select>
+    <ul id="taskList"></ul>
+  </div>
+</body>
+</html>
